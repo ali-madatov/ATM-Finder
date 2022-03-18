@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second"
+    android:background="@color/navyblue">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+
+
+        android:src="@drawable/otp" />
+
+    <ImageView
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/bank_1694_1055604"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="8dp"
+        android:text="My account"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:fontFamily="@font/mmedium"
+
+        />
+    <ImageView
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/creditcard_512"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="8dp"
+        android:text="Cards"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:fontFamily="@font/mmedium"
+
+        />
+    <ImageView
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/dollar_exchange_512"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="8dp"
+        android:text="Rates"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:fontFamily="@font/mmedium"
+
+        />
+
+    <Button
+        android:id="@+id/buttonatm"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/a6212066f5b75ed271e970349980466f" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="8dp"
+        android:text="Find ATM"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:fontFamily="@font/mmedium"
+
+        />
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="8dp"
+        android:text="Find the fastest ATM near you"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:fontFamily="@font/mlight"
+
+        />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/bg_btn"
+        android:text="Withdraw"
+        android:fontFamily="@font/mmedium"
+        android:textAllCaps="false"
+        android:textColor="#5E9855"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/button1"
+        android:layout_width="155dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/bg_btn"
+        android:text="Deposit"
+        android:fontFamily="@font/mmedium"
+        android:textAllCaps="false"
+        android:textColor="#5E9855"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        -->
+
+
+</RelativeLayout>
